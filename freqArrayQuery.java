@@ -24,5 +24,6 @@ public class freqArrayQuery {
             else
                 System.out.println("NO");
         }
+        sc.close();
     }
 }

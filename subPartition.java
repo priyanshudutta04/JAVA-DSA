@@ -1,9 +1,8 @@
-// Q Given an integer array, return the prefix sum in the same array without creating an array
-
-
 import java.util.Scanner;
 
-public class prefixSum {
+public class subPartition {
+
+    static int pos=-1;
 
     static int[] prefSumArray(int[] arr){
         for(int i=1;i<arr.length;i++){
@@ -11,6 +10,17 @@ public class prefixSum {
         }
         return arr;
     }
+
+    static boolean partition(int[] arr){
+        for(int i=0;i<arr.length;i++){
+            if(arr[arr.length-1]-arr[i]==arr[i]){
+                pos=i+1;
+                return true;
+            }
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         System.out.println("Enter Array length"); 
         Scanner sc=new Scanner(System.in);
@@ -22,12 +32,11 @@ public class prefixSum {
             arr[i]=sc.nextInt();
         }
         arr=prefSumArray(arr);
-        System.out.println("Prefix Array:"); 
-        for(int i=0;i<n;i++){
-           System.out.print(arr[i]+"\t"); 
+        if(partition(arr))
+            System.out.println("Array Can be divided at position:"+pos); 
+        else{
+            System.out.println("Can not be divided"); 
         }
         sc.close();
     }
-
-    
 }

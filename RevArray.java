@@ -19,6 +19,6 @@ class HelloWorld {
            System.out.println(rev[i]); 
         }
 
-        
+        sc.close();
     }
 }

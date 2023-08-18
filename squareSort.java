@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.*;
 
 public class squareSort {
     public static void main(String[] args) {
@@ -35,7 +34,7 @@ public class squareSort {
         for(int i=n-1;i>=0;i--){          
             System.out.print(ans[i]+"\t");
         }    
-
+        sc.close();
     }
     
 }
