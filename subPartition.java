@@ -1,3 +1,5 @@
+// Q) Check if an array can be partitioned into two sub arrays with equal sum
+
 import java.util.Scanner;
 
 public class subPartition {
@@ -5,9 +7,8 @@ public class subPartition {
     static int pos=-1;
 
     static int[] prefSumArray(int[] arr){
-        for(int i=1;i<arr.length;i++){
+        for(int i=1;i<arr.length;i++)
             arr[i]+=arr[i-1];
-        }
         return arr;
     }
 
@@ -28,15 +29,15 @@ public class subPartition {
         int arr[]=new int[n];
 
         System.out.println("Enter Array Elements"); 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++)
             arr[i]=sc.nextInt();
-        }
         arr=prefSumArray(arr);
+
         if(partition(arr))
-            System.out.println("Array Can be divided at position:"+pos); 
-        else{
+            System.out.println("Array Can be divided at position: "+pos); 
+        else
             System.out.println("Can not be divided"); 
-        }
+
         sc.close();
     }
 }
