@@ -1,4 +1,4 @@
-// Q) program to print elements of a matrix in spiral order
+// Q) Program to print elements of a matrix in spiral order
 
 import java.util.Scanner;
 
