@@ -1,3 +1,5 @@
+//Q) Program to rotate an 1 D array
+
 
 class RotateArray{
     
