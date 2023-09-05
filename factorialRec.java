@@ -1,4 +1,4 @@
-// Q) // Q) Program to Print Factorial of a Number using Recursion:
+// Q) Program to Print Factorial of a Number using Recursion:
 
 import java.util.*;
 
