@@ -1,3 +1,5 @@
+// Q) Program to implement linear search using recursion:
+
 import java.util.Scanner;
 
 public class linearSearchRec {
