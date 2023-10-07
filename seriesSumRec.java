@@ -1,7 +1,7 @@
+// Q) Program to find sum of the following series using Recursion:
+// 1 -2 +3 -4 ....+-n
+
 import java.util.Scanner;
-
-
-
 
 public class seriesSumRec {
 
@@ -22,7 +22,7 @@ public class seriesSumRec {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter n:");
         int n= sc.nextInt();
-        System.out.println("Factorial is: "+series(n));
+        System.out.println("Summation is: "+series(n));
         
         sc.close();
     }

@@ -1,13 +1,12 @@
+// Q) Program to Print Greatest Common Divisor of two numbers using Recursion:
+
 import java.util.Scanner;
-
-
-
 
 public class gcdRec {
 
     static int gcd(int x,int y){
         if(x%y==0){
-            return x;        
+            return y;        
         }
 
         return gcd(y,x%y);    
