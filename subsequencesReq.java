@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+// Q) Program to find all the subsequences of a string using recursion
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -34,6 +35,7 @@ public class subsequencesReq {
         for(String ss:ans){
             System.out.print(ss+"\t");
         }
+        sc.close();
     }
     
 }
