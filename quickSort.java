@@ -23,7 +23,7 @@ public class quickSort {
         arr[pivotIdx] = temp;
         
         int i = st, j = end;
-        // putting elemnts ;esser than pivot in left and greater in right
+        // putting elemnts lesser than pivot in left and greater in right
         while(i < pivotIdx && j > pivotIdx){
             while (arr[i] <= pivot) i++;
             while (arr[j] > pivot) j--;

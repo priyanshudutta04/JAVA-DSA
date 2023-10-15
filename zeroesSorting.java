@@ -1,4 +1,4 @@
-// Q) Program to implement bubble sort:
+// Q) Program to shift all zeroes in an array to the end:
 
 import java.util.Scanner;
 
