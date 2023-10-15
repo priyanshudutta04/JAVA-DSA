@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class quickSort {
 
-
-     
-
     static int partition(int[] arr, int st, int end){
-
+      
+        // To avoid worst case time complexity use random instead of start for pivot index
         int pivot = arr[st];
         int cnt = 0;
 
@@ -23,6 +21,7 @@ public class quickSort {
         arr[pivotIdx] = temp;
         
         int i = st, j = end;
+
         // putting elemnts lesser than pivot in left and greater in right
         while(i < pivotIdx && j > pivotIdx){
             while (arr[i] <= pivot) i++;
