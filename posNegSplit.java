@@ -1,4 +1,5 @@
-// Q) Program to implement bubble sort:
+// Q) Segregrate an array with all negative numbers first followed by all
+//    positive numbers in linear time
 
 import java.util.Scanner;
 
@@ -28,8 +29,7 @@ public class posNegSplit {
                 i++;
                 j--;
             }
-        }
-        
+        }     
     }
 
      public static void main(String args[]){
