@@ -1,3 +1,6 @@
+// Program to find the first occurence of an elemnent in a sorted array, using binary search
+
+
 import java.util.Scanner;
 
 public class firstOccurence {
