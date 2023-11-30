@@ -1,4 +1,6 @@
-
+// A new racing track is built for kids with m starting spots in ascending order.
+// Choose the starting spots for kids such that the minimum distance between any two of 
+// them is as large as possible. Display the minimum distance.
 
 
 
@@ -25,6 +27,7 @@ public class racingKids {
     static int distribute(int a[],int m){
         if(a.length<m)
             return -1;
+
         int ans=-1;
         int st=0;
         int end= (int) 1e9;
