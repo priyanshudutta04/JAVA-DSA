@@ -71,12 +71,37 @@ public class basiclinkedList {
             }
             else{
                 for(int i=1;i<pos-1;i++)
-                temp=temp.next;
+                    temp=temp.next;
             
                 if(temp.next.next==null)
                     tail=temp;
                 temp.next=temp.next.next;
             }
+        }
+
+        void deleteVal(int val){
+            Node temp=head;
+
+            if(temp.data==val){
+                head=head.next;
+                return;
+            }
+            else{
+                while(temp.next.next!=null){         
+                    if(temp.next.data==val){
+                        temp.next=temp.next.next;
+                        return;
+                    }
+                    temp=temp.next;
+                }
+                if(temp.next.data==val){
+                    tail=temp;
+                    temp.next=temp.next.next;
+                    return;
+                }
+            }
+            
+            System.out.println("Inavllid Input");
         }
 
         void display(){
@@ -121,6 +146,9 @@ public class basiclinkedList {
 
         //System.out.println(ll.posFind(3));
         ll.deleteEl(0);
+        ll.display();
+
+        ll.deleteVal(7);
         ll.display();
         
     }
