@@ -1,8 +1,9 @@
 # JAVA DSA
 ### This repository contains all the codes that I practice for dsa in java. Also contains the solution of the LeetCode problems I have solved.
----
-### Visit my [Leetcode profile](https://leetcode.com/priyanshu_34/)
----
+
+&nbsp;
+## Visit my [Leetcode profile](https://leetcode.com/priyanshu_34/)
+&nbsp;
 
 ## Building from Source
 
