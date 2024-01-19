@@ -12,8 +12,8 @@
 ```
 git clone https://github.com/priyanshudutta04/JAVA-DSA.git
 ```
-4. Go to the cloned directory, and navigate to your desired program -> ``` cd "folder_name" ```, and then to the code file.
-5. You can now run the example scripts or create your own scripts.  
+3. Go to the cloned directory, and navigate to your desired program -> ``` cd "folder_name" ```, and then to the code file.
+4. You can now run the example scripts or create your own scripts.  
 
 
 
