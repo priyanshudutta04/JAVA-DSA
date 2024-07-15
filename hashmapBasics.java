@@ -14,6 +14,7 @@ public class hashmapBasics {
         map.put("H", 18);
         map.put("R", 19);
 
+
         //geting value from key
         System.out.println(map.get("Y"));
         System.out.println(map.get("B"));
