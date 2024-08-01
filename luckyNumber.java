@@ -7,6 +7,7 @@
 
 // Runtime: 2ms      Memory:45.57MB
 
+import java.util.*;
 
 class Solution {
     public List<Integer> luckyNumbers (int[][] matrix) {
